@@ -1,0 +1,22 @@
+This is a simple example to show how the regularization works
+and to get familiar with the sklearn library.
+The main code is in the regularization.py file.
+You should run it by typing:
+python regularization.py
+
+For the purpose of this exercices we consider the simple noisy sine function.
+See the details of the data model in model.py file. 
+
+We will try to fit the polynomial model to it. We use linear regression
+and rigid regression which is the linear regression with the quadratic penalty term added.
+The penalty term strength is determined by the alpha parameter value (according to the lectures
+notation it was called lambda). On the other hand the the complexity of the model can be changed
+by changing the degree of the polynomial. 
+
+1.Read the code and try to understand how it works
+2.By changing the values of degree and alpha observe the interplay of overfitting/bias
+3.For which values one can obtained the reasonable fit to data ?
+4.Plot the training and test errors as a function of polynomial degree (for fixed alpha)
+5.Plot the training and test errors as a function of regularization term (for fixed degree). 
+ 
+
